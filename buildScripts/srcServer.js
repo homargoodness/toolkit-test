@@ -4,6 +4,8 @@ import open from 'open'
 import webpack from 'webpack'
 import webpackConfig from '../webpack.config.dev'
 
+/* eslint-disable no-console */
+
 let port = 3000;
 let app = express();
 let compiler = webpack(webpackConfig);
