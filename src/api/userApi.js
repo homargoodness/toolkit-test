@@ -13,5 +13,6 @@ function onSuccess(response) {
 }
 
 function onError(error) {
+	/*eslint-disable no-console*/
 	console.log(error)
 }
